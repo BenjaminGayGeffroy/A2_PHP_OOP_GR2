@@ -1,0 +1,24 @@
+{
+    "name": "Maaro/a2_php_oop_gr2",
+    "description": "Php gr2 pokemon battle benjamin gay",
+    "require": {
+        "doctrine/dbal": "~2.5",
+        "doctrine/orm": "~2.4",
+        "symfony/console": "~2.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Gay",
+            "email": "cimaaro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BenjaminGayGeffroy\\PokemonBattle\\": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
